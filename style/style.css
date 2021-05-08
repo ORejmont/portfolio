@@ -404,7 +404,7 @@ header {
 /* PORTFOLIO ITEMS WRAPPER */
 .portfolio_boxes {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
     flex-direction: row;
 }
@@ -437,7 +437,7 @@ header {
 }
 
 .p3 {
-    background-image: url(../images/portfolio/test3.JPG);
+    background-image: url(../images/portfolio/template.JPG);
     background-size: cover;
     background-position: center;
 }
