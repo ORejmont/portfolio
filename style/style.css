@@ -425,23 +425,23 @@ header {
 }
 
 .p1 {
-    background-image: url(../images/portfolio/test1.JPG);
+    background-image: url(../images/portfolio/game.png);
     background-size: cover;
     background-position: center;
 }
 
 .p2 {
-    background-image: url(../images/portfolio/test2.JPG);
+    background-image: url(../images/portfolio/template.JPG);
     background-size: cover;
     background-position: center;
 }
 
 .p3 {
-    background-image: url(../images/portfolio/test3.JPG);
+    background-image: url(../images/portfolio/test.JPG);
     background-size: cover;
     background-position: center;
 }
-
+/*
 .p4 {
     background-image: url(../images/portfolio/test7.JPG);
     background-size: cover;
@@ -459,7 +459,7 @@ header {
     background-size: cover;
     background-position: center;
 }
-
+*/
 
 
 
