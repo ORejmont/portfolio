@@ -1,0 +1,12 @@
+// Sjednocení SCSS
+
+@import 'variables';    // variables
+
+@import 'main';         // main code (body etc.)
+@import 'navigation';   // Section – navigation
+@import 'header';       // header
+@import 'aboutMe';      // Section – about me
+@import 'skills';       // Section – skills
+@import 'portfolio';    // Section – portfolio
+@import 'hireMe';       // Section – hire me
+@import 'footer';       // footer

@@ -1,0 +1,40 @@
+// Header
+
+header {
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.wrapper {
+    text-align: center;
+    margin: 0 50px;
+
+    h1 {
+        font-size: 3em;
+    }
+
+    p {
+        font-size: 1.5em;
+        font-weight: 300;
+        margin-top: 5px;
+    }
+
+    a {
+        svg {
+            height: 65px;
+            width: 65px;
+            margin-top: 40px;
+    
+            path:nth-child(2) {
+                fill: $color-primary;
+            }
+
+            &:hover,
+            &:active {
+                margin-top: 50px;
+            }
+        }
+    }
+}

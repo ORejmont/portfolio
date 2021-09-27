@@ -1,0 +1,71 @@
+// Hire me – SECTION
+
+.hire_me {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1200px;
+    background-color: $color-hire-me-background;
+    color: $color-white;
+    border-radius: 20px;
+    height: 120px;
+    text-align: center;
+    position: relative;
+    bottom: -80px;
+
+    h5 {
+        font-size: 1.8em;
+    }
+
+    p {
+        font-size: 1em;
+        font-weight: 400;
+    }
+
+    button {
+        background-color: transparent;
+        padding: 7px 23px;
+        border: 2px solid $color-primary;
+        border-radius: 50px;
+        cursor: pointer;
+
+        &:hover,
+        &:active {
+            background-color: $color-primary;
+        }
+
+        a {
+            color: $color-white;
+            font-size: 1.4em;
+            text-decoration: none;
+        }
+    }
+}
+
+.hire_me_wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 120px;
+    flex-direction: row;
+}
+
+
+
+/* MOBILE */
+@media only screen and (max-width: 786px) {
+    .hire_me {
+        height: 250px;
+        bottom: -180px;
+        margin-top: -80px;
+
+        h5 {
+        margin-bottom: -30px;
+        }
+    }
+
+    .hire_me_wrapper {
+        height: 250px;
+        flex-direction: column;
+        padding: 20px 12px;
+    }
+}

@@ -1,0 +1,23 @@
+// Main code
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    transition-duration: 0.5s;
+    font-family: 'Kanit', sans-serif;
+}
+
+/* NOTEBOOK */
+@media only screen and (max-width: 1300px) {
+    * {
+      font-size: .97em;
+    }
+}
+
+@media only screen and (max-width: 786px) {
+    * {
+      font-size: 1em;
+    }
+}
